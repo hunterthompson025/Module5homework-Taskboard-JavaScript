@@ -1,0 +1,47 @@
+/* Variables to be used for colors */
+:root {
+  --light: #f6f6f6;
+  --darkblue: #2c3e50;
+  --lightblue: #3498db;
+  --red: #e74c3c;
+  --lightred: #f9eae7;
+  --lightyellow: #fff5d1;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+/* Colors that will change depending on the dueDate assigned */
+.task-late {
+  background-color: var(--lightred);
+}
+
+.task-today {
+  background-color: var(--lightyellow);
+}
+
+
